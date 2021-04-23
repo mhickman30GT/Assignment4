@@ -1,0 +1,15 @@
+name: assignment4
+channels:
+  - default
+  - conda-forge
+dependencies:
+- python=3.7
+- scikit-learn
+- numpy
+- matplotlib
+- pandas
+- mlxtend
+- pip
+- pip:
+  - mdptoolbox-hiive
+  - gym
